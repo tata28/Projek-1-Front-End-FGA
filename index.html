@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,119 +8,178 @@
     <!-- Styling -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
+    <!-- Remixicon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
     <!-- ========= favicon ========= -->
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
 
     <title>Starbucks</title>
-
-</head>
-
-<body>
+  </head>
+  <body>
     <!-- ======================= Navbar ======================= -->
     <header>
-        <nav>
-            <div class="logo">
-                <a href="#">
-                    <img src="assets/img/logo.png" alt="Logo Starbucks's" />
-                    <h4>Starbucks</h4>
-                </a>
-            </div>
-            <ul class="nav-links">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#bestseller">Best Seller</a>
-                </li>
-                <li>
-                    <a href="#contact" class="btn-nav">Contact</a>
-                </li>
-            </ul>
-            <div class="nav-btn">
-                <a href="#contact">Contact</a>
-            </div>
-            <div class="menu-toggle">
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/img/logo.png" alt="Logo Starbucks" />
+            <h4>Starbucks</h4>
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#bestseller">Best Seller</a>
+          </li>
+          <li>
+            <a href="#contact" class="btn-nav">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-btn">
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <div class="typography__hero">
-                <h2>It's not just Coffee<br />It's <span>Starbucks</span></h2>
-                <a href="#" class="btn-hero">Learn more</a>
-            </div>
-            <img src="assets/img/img-hero.png" class="img__hero" alt="Coffee Starbucks" />
-        </section>
+      <!-- ======== Section Hero ======== -->
+      <section id="hero">
+        <div class="typography__hero">
+          <h2>It's not just Coffee<br />It's <span>Starbucks</span></h2>
+          <a href="#about" class="btn-hero">Learn more</a>
+        </div>
+        <img src="assets/img/img-hero.png" class="img__hero" alt="Coffee Starbucks" />
+      </section>
+      <!-- ======== End Section Hero ======= -->
 
-        <section id="contact">
-            <h2 class="heading-section">Contact</h2>
-            <div class="ourcontact">
-                <div class="list__contact">
-                    <a href="#"><i class="ri-mail-line"></i>Starbucks@gmail.com</a>
-                </div>
-                <div class="list__contact">
-                    <a href="#"><i class="ri-whatsapp-line"></i>800-Starbucks (800-782-7282)</a>
-                </div>
-                <div class="list__contact">
-                    <a href="#"><i class="ri-linkedin-box-line"></i>Starbucks</a>
-                </div>
-                <div class="list__contact">
-                    <a href="#"><i class="ri-instagram-line"></i>Starbucks</a>
-                </div>
+      <!-- ========= Section About ========= -->
+      <section id="about">
+        <h2 class="heading-section">About Us</h2>
+        <div class="flex-about">
+          <div class="wrapper__img__about">
+            <img src="assets/img/toko.jpg" alt="Illustration About" />
+          </div>
+
+          <p>Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It is the world's largest coffeehouse chain.</p>
+        </div>
+      </section>
+      <!-- ========= End Section About ========= -->
+
+      <!-- ========= Section Best Seller ========= -->
+      <section id="bestseller">
+        <h2 class="heading-section">Best Seller</h2>
+        <div class="row__wrapper">
+          <div class="menu__wrapper1">
+            <div class="img__menu__wrapper1">
+              <img src="assets/img/best-seller1.png" alt="Coffee Cup" class="img__menu" />
             </div>
-        </section>
-        <!-- ============== End Section Contact ==============  -->
+            <div class="typography__menu">
+              <h3>
+                Matcha Crème Frappuccino® <br />
+                Blended Beverage
+              </h3>
+              <h4>420 calories</h4>
+            </div>
+          </div>
+          <div class="menu__wrapper2">
+            <div class="img__menu__wrapper2">
+              <img src="assets/img/best-seller2.png" alt="Coffee Cup" class="img__menu" />
+            </div>
+            <div class="typography__menu">
+              <h3>
+                Strawberry Crème Frappuccino® <br />
+                Blended Beverage
+              </h3>
+              <h4>420 calories</h4>
+            </div>
+          </div>
+          <div class="menu__wrapper3">
+            <div class="img__menu__wrapper3">
+              <img src="assets/img/best-seller3.png" alt="Coffee Cup" class="img__menu" />
+            </div>
+            <div class="typography__menu">
+              <h3>
+                Caramel Frappuccino® <br />
+                Blended Beverage
+              </h3>
+              <h4>380 calories</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========= End Section Best Seller ========= -->
+
+      <!-- ============== Section Contact ==============  -->
+      <section id="contact">
+        <h2 class="heading-section">Contact</h2>
+        <div class="ourcontact">
+          <div class="list__contact">
+            <a href="#"><i class="ri-mail-line"></i>Starbucks@gmail.com</a>
+          </div>
+          <div class="list__contact">
+            <a href="#"><i class="ri-whatsapp-line"></i>(+800-782-7282)</a>
+          </div>
+          <div class="list__contact">
+            <a href="#"><i class="ri-linkedin-box-line"></i>Starbucks</a>
+          </div>
+          <div class="list__contact">
+            <a href="#"><i class="ri-instagram-line"></i>Starbucks</a>
+          </div>
+        </div>
+      </section>
+      <!-- ============== End Section Contact ==============  -->
     </main>
 
     <footer>
-        <div class="main__footer">
-            <div class="logo__footer">
-                <a href="#">
-                    <img src="assets/img/logo.png" alt="Logo Starbucks" />
-                    <h4>Starbucks</h4>
-                </a>
-            </div>
-            <div class="link__footer">
-                <h3>Sitemap</h3>
-                <div class="list__sitemap">
-                    <div class="sitemap">
-                        <a href="#">
-                            <p>Home</p>
-                        </a>
-                    </div>
-                    <div class="sitemap">
-                        <a href="#about">
-                            <p>About</p>
-                        </a>
-                    </div>
-                    <div class="sitemap">
-                        <a href="#bestseller">
-                            <p>Best Seller</p>
-                        </a>
-                    </div>
-                    <div class="sitemap">
-                        <a href="#contact">
-                            <p>Contact</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
+      <div class="main__footer">
+        <div class="logo__footer">
+          <a href="#">
+            <img src="assets/img/logo.png" alt="Logo Starbucks" />
+            <h4>Starbucks</h4>
+          </a>
         </div>
-        <div class="bottom__footer">
-            <p>Copyright &copy; 2022 - Kelompok AO6</p>
+        <div class="link__footer">
+          <h3>Sitemap</h3>
+          <div class="list__sitemap">
+            <div class="sitemap">
+              <a href="#">
+                <p>Home</p>
+              </a>
+            </div>
+            <div class="sitemap">
+              <a href="#about">
+                <p>About</p>
+              </a>
+            </div>
+            <div class="sitemap">
+              <a href="#bestseller">
+                <p>Best Seller</p>
+              </a>
+            </div>
+            <div class="sitemap">
+              <a href="#contact">
+                <p>Contact</p>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="bottom__footer">
+        <p>Copyright &copy; 2022 - Kelompok AO6</p>
+      </div>
     </footer>
 
-
     <script src="assets/js/app.js"></script>
-</body>
-
+  </body>
 </html>
